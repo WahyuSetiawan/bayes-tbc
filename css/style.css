@@ -1,0 +1,166 @@
+body{
+	padding-top:45px;
+	background:#ebebeb;
+	font-size:15px;
+}
+
+/*Mengubah warna heding 4*/
+h4{
+	color:#000000
+}
+
+.header{
+	z-index:20
+}
+
+.navbar{
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-o-border-radius:0;
+	border-radius:0
+}
+
+.navbar-default{
+	background:#fff;
+	-webkit-box-shadow:0 0 5px #999;
+	-moz-box-shadow:0 0 5px #999;
+	-o-box-shadow:0 0 5px #999;
+	box-shadow:0 0 5px #999
+}
+
+.navbar-brand{
+	padding:10px 15px;
+}
+
+.navbar-default .navbar-brand{
+	color:#333
+}
+
+.navbar-toggle:focus,.navbar-toggle:hover{
+	background:none!important;
+	opacity:.4;
+	filter:alpha(opacity=80)
+}
+
+.navbar-nav>.open>a,.navbar-nav>.open>a:focus{
+	background:none!important;
+}
+
+.form-search{
+	margin:12px 0
+}
+
+.form-search .form-control{
+	width:310px;
+	padding:5px 15px;
+	height:30px;
+	border-radius:15px
+}
+
+.form-search .form-control:focus{
+	width:400px;
+}
+
+.form-search .btn-search{
+	position:absolute;
+	right:3px;
+	top:12px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:none;
+	background:0 0;
+	-webkit-border-radius:0 30px 30px 0;
+	-moz-border-radius:0 30px 30px 0;
+	-o-border-radius:0 30px 30px 0;
+	border-radius:0 30px 30px 0
+}
+
+.navbar-user img{
+	float:left;
+	width:30px;
+	height:30px;
+	margin:-5px 10px 0 0;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	border-radius:30px
+}
+
+.sidebar{
+	width:220px;
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	padding-top:54px;
+	background:#2d353c;
+	z-index:10;
+}
+
+.sidebar .nav>li>a{
+	padding:8px 20px;
+	line-height:20px;
+	color:#a8acb1
+}
+
+.sidebar .nav>li>a:focus,.sidebar .nav>li>a:hover{
+	background:#232a2f;
+	color:#a8acb1
+}
+
+.sidebar .nav>li.active>a,.sidebar .nav>li.active>a:focus,.sidebar .nav>li.active>a:hover{
+	color:#fff;
+	background:#428BCA
+}
+
+.nav-profile{
+	padding:25px;
+	color:#fff;
+	background:#1a2229
+}
+
+.nav-profile .info{
+	font-size:14px
+}
+
+.nav-profile .info small{
+	display:block;
+	color:#889097
+}
+
+.content{
+	margin-left:220px;
+	padding:20px 25px
+}
+
+.content.content-full-width{
+	padding:0
+}
+
+.content.content-full-width .page-header{
+	margin:20px
+}
+
+.btn-to-top{
+	position:fixed;
+	bottom:20px;
+	right:25px
+}
+
+.btn.btn-success{
+	background:#428bca;
+}
+
+.btn.btn-success:hover{
+	background:#5BC0DE;
+}
+
+.panel{
+	border:none;
+}
+
+.panel-heading{
+	color:#fff;
+	background:#428bca;
+}
